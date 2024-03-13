@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="userdetails.css" type="text/css" />
+</head>
+<body>
+    <div class="user-main">
+        <div class="user-menu">
+            <p>COM<span class="span">PPP</span>LIANCE</p>
+        </div>
+        <div class="user-content">
+            <div >
+            <div class="box">
+                <h1>Organization Profile</h1>
+                <div class="box-first">
+                    <div class="">
+                        <h3>Name of the organization</h3>
+                        <input id="org" class="inputBox"/>
+                    </div>
+                    <div class="bg-primary">
+                        <h3>Email</h3>
+                        <input id="em" class="inputBox"/>
+                    </div>
+                </div>
+                <h3>Vision</h3>
+                <input placeholder="vision description" class="inputBox" style="height: 70px;"/>
+                <div class="box-first">
+                    <div >
+                        <h3>PAN Number</h3>
+                        <input id="pan" placeholder="Enter number" class="inputBox"/>
+                    </div>
+                    <div>
+                        <h3>Phone number</h3>
+                        <input id="ph" placeholder="Enter number" class="inputBox"/>
+                    </div>
+                </div>
+                <div class="kp">
+                    <button class=" buttonwhite">Save Changes</button>
+                    <button class="button">Next</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script>
+     const userData=JSON.parse(sessionStorage.getItem('userData'));
+     document.getElementById('ph').value=userData.phoneNumber;
+     document.getElementById('pan').value=userData.pancardNumber;
+     document.getElementById('em').value=userData.emailId;
+     document.getElementById('org').value=userData.organizationName;
+     document.getElementById('org').value=userData.organizationType;
+
+
+    // console.log(Document.getElementById('ph'));
+    </script>
+</body>
+</html>

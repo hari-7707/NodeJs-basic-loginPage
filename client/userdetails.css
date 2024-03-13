@@ -1,0 +1,71 @@
+.user-menu{
+    width : 25vw;
+    background-color: #1B1C31;
+    height : 100vh;
+    color : white;
+}
+.user-main{
+    display: flex;
+}
+.kp{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 40px;
+}
+.ubtnn{
+    width : 15vw;
+margin-right: 20px;
+padding: 5px;
+
+}
+.utnn{
+    width : 15vw;
+    border: none;
+    background-color: #1B1C31;
+    color :white;
+    padding: 5px;
+}
+.button{
+    width: 25%;
+    height: 50px;
+    border-radius: 15px;
+    border-color: #1B1C31;
+    background-color: #1B1C31;
+    color: white;
+    
+    
+}
+.buttonwhite{
+    width: 25%;
+    height: 50px;
+    border-radius: 15px;
+    border-color: #1B1C31;
+    background-color: white;
+    color:black;
+    margin-right:50px;
+    
+}
+.user-content{
+    padding: 20px;
+    width: 75vw;
+}
+.box{
+    padding: 40px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    margin-top: 20px;
+}
+.box-first{
+    display: flex;
+    justify-content: space-between;
+}
+.inputBox{
+    width: 100%;
+    font-family: Manrope;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 30px;
+    border-radius: 10px;
+    border-color: #B4B4B4;
+    background-color: white;
+
+}

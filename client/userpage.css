@@ -1,0 +1,144 @@
+.first{
+    background-color: #1B1C31;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    color : white;
+    width : 100vw;
+    border-bottom-left-radius: 150px;
+}
+.first-sub{
+    display: flex;
+}
+.active{
+    background-color : white !important;
+    color: #1B1C31 !important;
+}
+.passive{
+    background-color: #1B1C31 !important;
+    color: white !important;
+}
+.hi{
+    
+    color : black;
+}
+.sign{
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 9vw;
+    border-radius: 35px;
+   
+}
+.register{
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 9vw;
+    border-radius: 35px;
+    background-color:#1B1C31;
+    color: white;
+}
+.h1{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.form-head{
+    background-color: #1B1C31;
+    padding: 10px;
+    border-radius: 35px;
+}
+.form{
+    width : 30vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 16px;
+}
+.form-div{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.p{
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 0px;
+}
+.content{
+    margin-left: 250px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width : 30vw
+}
+.main{
+    margin: -10px;
+}
+.header {
+    padding-top: 10px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:  95px;
+    padding-right: 85px;
+}
+.header-sub{
+    font-size: 12px;
+    width : 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.span{
+    color : #97C1FF;
+}
+.btn { 
+    margin-right: 50px;
+    border-style: solid;
+    border-radius: 10px;
+    border : none;
+    color :#1B1C31;
+    background-color: white;
+    padding: 5px;
+    width : 80px;
+}
+.removeDisplay{
+    display: none;
+}
+.k{
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    width: 110%;
+}
+.inputBox{
+    width: 100%;
+    font-family: Manrope;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #B4B4B4;
+    background-color: white;
+
+}
+.button{
+    width: 80%;
+    height: 50px;
+    border-radius: 15px;
+    border-color: #1B1C31;
+    background-color: #1B1C31;
+    color: white;
+    
+}
